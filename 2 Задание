@@ -1,0 +1,10 @@
+print("2 Задание")
+count = 0
+for i in range(10):
+    num = int(input("Введите число:"))
+    if num % 2 == 0:
+        count += 1
+if count == 10:
+    print("Yes")
+else:
+    print("No")
