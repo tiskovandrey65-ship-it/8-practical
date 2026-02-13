@@ -1,1 +1,9 @@
+m = int(input("Введите количество организмов:"))
+p = int(input("Введите среднесуточное увеличение в процентах:"))
+n = int(input("Введите количество дней:"))
 
+population = float(m)
+
+for day in range(1, n + 1):
+    print(day,population)
+    population *= 1+p / 100
